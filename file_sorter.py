@@ -58,3 +58,6 @@ for filename in files:
     else:
         print(f"[ {colored('FAIL', 'red')} ] Unsupported file type.")
         files_count -= 1
+
+print("Done. Press enter to exit.")
+input()
